@@ -1,0 +1,6 @@
+{
+  "name": "The Wine Spot SA",
+  "description": "An exclusive curated tasting center showcasing the finest premium wines from pioneering, black-owned South African producers, located at the iconic Long March to Freedom heritage site in Cape Town.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
