@@ -798,7 +798,7 @@ export default function App() {
                       {/* Interactive Gold Foil Accented Studio Bottle */}
                       <div className="w-full h-full relative flex items-center justify-center p-4">
                         <img 
-                          src={tastingImg}
+                          ssrc={bottlePlaceholderImg}
                           alt={wine.name}
                           className="max-h-full max-w-full object-contain filter drop-shadow-[0_15px_15px_rgba(0,0,0,0.12)] transform group-hover:scale-105 transition-transform duration-500"
                           referrerPolicy="no-referrer"
