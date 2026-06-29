@@ -2,7 +2,11 @@
  * @license
  * SPDX-License-Identifier: Apache-2.0
  */
-
+import heroImg from './assets/images/wine_spot_hero_1782757827367.jpg';
+import bottlePlaceholderImg from './assets/images/luxury_wine_bottle_1782757842715.jpg';
+import tastingImg from './assets/images/wine_tasting_experience_1782757858895.jpg';
+// If you added your logo here, import it too:
+import logoImg from './assets/images/wine pot logo.jpg';
 import React, { useState, useEffect, useRef } from 'react';
 import { 
   ShoppingBag, 
@@ -528,7 +532,7 @@ export default function App() {
                 <div className="editorial-double-border-inner p-2 bg-white">
                   <div className="relative aspect-[4/5] overflow-hidden bg-gray-50">
                     <img 
-                      src={IMAGES.hero} 
+                      src={heroImg}
                       alt="The Wine Spot SA Luxury Tasting Gallery" 
                       className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-700"
                       referrerPolicy="no-referrer"
@@ -622,7 +626,7 @@ export default function App() {
                   {/* Decorative Header Banner */}
                   <div className="aspect-[16/10] overflow-hidden bg-gray-100 relative border-b border-[#E5E5E5]">
                     <img 
-                      src={IMAGES.experience} 
+                      src={tastingImg}
                       alt={experience.name}
                       className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                       referrerPolicy="no-referrer"
@@ -794,7 +798,7 @@ export default function App() {
                       {/* Interactive Gold Foil Accented Studio Bottle */}
                       <div className="w-full h-full relative flex items-center justify-center p-4">
                         <img 
-                          src={IMAGES.bottle} 
+                          src={tastingImg}
                           alt={wine.name}
                           className="max-h-full max-w-full object-contain filter drop-shadow-[0_15px_15px_rgba(0,0,0,0.12)] transform group-hover:scale-105 transition-transform duration-500"
                           referrerPolicy="no-referrer"
@@ -1277,7 +1281,7 @@ export default function App() {
                         <div className="w-16 h-20 bg-white border border-[#E5E5E5] flex items-center justify-center p-2 shrink-0">
                           {item.type === 'wine' ? (
                             <img 
-                              src={IMAGES.bottle} 
+                              src={bottlePlaceholderImg}
                               alt={item.name} 
                               className="max-h-full max-w-full object-contain filter drop-shadow-md"
                               referrerPolicy="no-referrer"
@@ -1592,7 +1596,7 @@ export default function App() {
                   {/* Left Column: Wine bottle render */}
                   <div className="md:col-span-5 bg-[#FDFBF7] border border-[#E5E5E5] p-4 flex items-center justify-center relative min-h-[250px]">
                     <img 
-                      src={IMAGES.bottle} 
+                      src={bottlePlaceholderImg}
                       alt={selectedWine.name} 
                       className="max-h-60 object-contain filter drop-shadow-lg"
                       referrerPolicy="no-referrer"
